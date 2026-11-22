@@ -1,0 +1,105 @@
+author,book,genre,isbn,status,checkout_date,due_date
+Frank Herbert,Dune,Sci-fi,9780786579303,Available,,
+Stephen King,The Shining,Horror,9780362950628,Available,,
+Agatha Christie,Murder on the Orient Express,Mystery,9780826600539,Available,,
+Isaac Asimov,Foundation,Sci-fi,9780685582861,Available,,
+George Orwell,1984,Dystopian,9780131994523,Checked Out,2026-11-22,2026-12-06
+Mary Shelley,Frankenstein,Horror,9780702632297,Checked Out,2026-11-02,2026-11-23
+J.R.R. Tolkien,The Hobbit,Fantasy,9780336696312,Checked Out,2026-11-14,2026-11-28
+Andy Weir,Project Hail Mary,Sci-fi,9780914763202,Available,,
+Jane Austen,Pride and Prejudice,Romance,9780849621470,Checked Out,2026-11-14,2026-11-28
+Shirley Jackson,The Haunting of Hill House,Horror,9780331191390,Available,,
+Arthur Conan Doyle,The Hound of the Baskervilles,Mystery,9780461415646,Checked Out,2026-11-10,2026-11-24
+Ray Bradbury,Fahrenheit 451,Dystopian,9780485451171,Available,,
+Ursula K. Le Guin,A Wizard of Earthsea,Fantasy,9780748245888,Checked Out,2026-11-21,2026-12-12
+Bram Stoker,Dracula,Horror,9780675770529,Checked Out,2026-11-10,2026-11-24
+William Gibson,Neuromancer,Sci-fi,9780692749116,Checked Out,2026-11-02,2026-11-23
+Brandon Sanderson,Mistborn: The Final Empire,Fantasy,9780719927151,Checked Out,2026-11-20,2026-12-04
+Gillian Flynn,Gone Girl,Thriller,9780810026086,Checked Out,2026-11-13,2026-11-27
+Harper Lee,To Kill a Mockingbird,Fiction,9780349957310,Available,,
+F. Scott Fitzgerald,The Great Gatsby,Fiction,9780508157429,Available,,
+Aldous Huxley,Brave New World,Dystopian,9780274648506,Checked Out,2026-11-16,2026-12-07
+Patrick Rothfuss,The Name of the Wind,Fantasy,9780853573823,Available,,
+Dan Brown,The Da Vinci Code,Thriller,9780795822698,Checked Out,2026-11-02,2026-11-16
+Gabriel Garcia Marquez,One Hundred Years of Solitude,Fiction,9780673528321,Available,,
+Margaret Atwood,The Handmaid's Tale,Dystopian,9780275452091,Checked Out,2026-11-14,2026-11-28
+Neil Gaiman,American Gods,Fantasy,9780835098955,Checked Out,2026-10-29,2026-11-12
+Emily Bronte,Wuthering Heights,Romance,9780345938494,Available,,
+H.G. Wells,The War of the Worlds,Sci-fi,9780964411347,Checked Out,2026-11-14,2026-11-28
+Stieg Larsson,The Girl with the Dragon Tattoo,Mystery,9780326541099,Available,,
+Philip K. Dick,Do Androids Dream of Electric Sheep?,Sci-fi,9780709004943,Available,,
+Toni Morrison,Beloved,Fiction,9780437882805,Checked Out,2026-11-07,2026-11-28
+C.S. Lewis,"The Lion, the Witch and the Wardrobe",Fantasy,9780790256940,Available,,
+Suzanne Collins,The Hunger Games,Dystopian,9780364814270,Available,,
+Kurt Vonnegut,Slaughterhouse-Five,Sci-fi,9780678722458,Checked Out,2026-11-04,2026-11-25
+Daphne du Maurier,Rebecca,Mystery,9780726563708,Checked Out,2026-11-15,2026-11-29
+Madeline Miller,Circe,Fantasy,9780647099690,Checked Out,2026-10-29,2026-11-12
+Alex Michaelides,The Silent Patient,Thriller,9780217734861,Checked Out,2026-11-17,2026-12-08
+Cormac McCarthy,The Road,Dystopian,9780740389325,Checked Out,2026-11-10,2026-12-01
+Leo Tolstoy,Anna Karenina,Romance,9780668132202,Checked Out,2026-11-05,2026-11-19
+Fyodor Dostoevsky,Crime and Punishment,Fiction,9780830448745,Available,,
+Orson Scott Card,Ender's Game,Sci-fi,9780831980933,Available,,
+N.K. Jemisin,The Fifth Season,Fantasy,9780906248900,Checked Out,2026-11-02,2026-11-23
+Tana French,In the Woods,Mystery,9780219778234,Checked Out,2026-11-17,2026-12-08
+Clive Barker,The Hellbound Heart,Horror,9780103484630,Available,,
+Octavia E. Butler,Kindred,Sci-fi,9780872751234,Checked Out,2026-11-06,2026-11-20
+Kazuo Ishiguro,Never Let Me Go,Dystopian,9780645119047,Available,,
+Delia Owens,Where the Crawdads Sing,Mystery,9780771410971,Checked Out,2026-11-02,2026-11-16
+Terry Pratchett,Guards! Guards!,Fantasy,9780264109919,Checked Out,2026-11-17,2026-12-01
+Stephen King,It,Horror,9780743111853,Checked Out,2026-11-22,2026-12-06
+Liu Cixin,The Three-Body Problem,Sci-fi,9780489747629,Available,,
+Jane Austen,Sense and Sensibility,Romance,9780992994062,Available,,
+Raymond Chandler,The Big Sleep,Mystery,9780357109965,Checked Out,2026-11-04,2026-11-18
+George R.R. Martin,A Game of Thrones,Fantasy,9780191969690,Available,,
+Arthur C. Clarke,2001: A Space Odyssey,Sci-fi,9780976198296,Checked Out,2026-10-29,2026-11-12
+Charlotte Bronte,Jane Eyre,Romance,9780237859287,Checked Out,2026-11-05,2026-11-19
+Paula Hawkins,The Girl on the Train,Thriller,9780384602384,Checked Out,2026-11-03,2026-11-24
+Robert Louis Stevenson,Dr. Jekyll and Mr. Hyde,Horror,9780327416584,Available,,
+Ernest Hemingway,The Old Man and the Sea,Fiction,9780910959828,Available,,
+Douglas Adams,The Hitchhiker's Guide to the Galaxy,Sci-fi,9780315984311,Available,,
+Roald Dahl,Matilda,Fantasy,9780528414718,Available,,
+Haruki Murakami,Kafka on the Shore,Fiction,9780797801251,Checked Out,2026-11-06,2026-11-27
+J.K. Rowling,Harry Potter and the Sorcerer's Stone,Fantasy,9780229927269,Checked Out,2026-11-20,2026-12-11
+Dan Simmons,Hyperion,Sci-fi,9780122585366,Checked Out,2026-11-15,2026-11-29
+Thomas Harris,The Silence of the Lambs,Thriller,9780107721109,Checked Out,2026-11-02,2026-11-16
+Edgar Allan Poe,The Fall of the House of Usher,Horror,9780345824373,Checked Out,2026-11-21,2026-12-12
+Louisa May Alcott,Little Women,Fiction,9780176082500,Checked Out,2026-11-14,2026-12-05
+Neal Stephenson,Snow Crash,Sci-fi,9780330035022,Checked Out,2026-10-30,2026-11-20
+Robin Hobb,Assassin's Apprentice,Fantasy,9780360916298,Available,,
+Agatha Christie,And Then There Were None,Mystery,9780967043303,Checked Out,2026-11-19,2026-12-03
+Mary Higgins Clark,Where Are the Children?,Thriller,9780807577342,Checked Out,2026-11-09,2026-11-30
+H.P. Lovecraft,The Call of Cthulhu,Horror,9780601463916,Available,,
+John Steinbeck,Of Mice and Men,Fiction,9780158165865,Checked Out,2026-11-02,2026-11-16
+Pierce Brown,Red Rising,Sci-fi,9780165082363,Checked Out,2026-11-12,2026-11-26
+Joe Abercrombie,The Blade Itself,Fantasy,9780366992705,Checked Out,2026-11-05,2026-11-26
+Liane Moriarty,Big Little Lies,Mystery,9780250519597,Checked Out,2026-11-14,2026-12-05
+Stephen King,Pet Sematary,Horror,9780368227631,Available,,
+Lois Lowry,The Giver,Dystopian,9780180943908,Checked Out,2026-11-05,2026-11-19
+Nicholas Sparks,The Notebook,Romance,9780154318806,Checked Out,2026-11-05,2026-11-19
+Michael Crichton,Jurassic Park,Sci-fi,9780200140141,Available,,
+Robert Jordan,The Eye of the World,Fantasy,9780353810544,Checked Out,2026-11-07,2026-11-28
+Umberto Eco,The Name of the Rose,Mystery,9780329509408,Available,,
+Ira Levin,Rosemary's Baby,Horror,9780162959284,Checked Out,2026-11-22,2026-12-13
+Yann Martel,Life of Pi,Fiction,9780384759615,Available,,
+James S.A. Corey,Leviathan Wakes,Sci-fi,9780943026227,Checked Out,2026-11-09,2026-11-30
+Diana Gabaldon,Outlander,Romance,9780266211829,Checked Out,2026-11-16,2026-11-30
+Dennis Lehane,Shutter Island,Thriller,9780721890096,Available,,
+Richard Matheson,I Am Legend,Horror,9780165452690,Available,,
+Khaled Hosseini,The Kite Runner,Fiction,9780161380746,Checked Out,2026-11-07,2026-11-21
+Ted Chiang,Stories of Your Life and Others,Sci-fi,9780161073976,Available,,
+Neil Gaiman,Coraline,Horror,9780186019028,Available,,
+Donna Tartt,The Secret History,Mystery,9780173574218,Checked Out,2026-11-01,2026-11-15
+Ray Bradbury,The Martian Chronicles,Sci-fi,9780533550699,Checked Out,2026-11-04,2026-11-18
+V.E. Schwab,The Invisible Life of Addie LaRue,Fantasy,9780721609600,Checked Out,2026-11-03,2026-11-17
+Ruth Ware,The Woman in Cabin 10,Thriller,9780550139320,Checked Out,2026-11-04,2026-11-25
+Anne Rice,Interview with the Vampire,Horror,9780379995032,Checked Out,2026-10-31,2026-11-21
+Markus Zusak,The Book Thief,Fiction,9780356287095,Checked Out,2026-11-18,2026-12-09
+Becky Chambers,"The Long Way to a Small, Angry Planet",Sci-fi,9780590941149,Checked Out,2026-10-29,2026-11-12
+Leigh Bardugo,Six of Crows,Fantasy,9780110002396,Checked Out,2026-11-04,2026-11-18
+John Grisham,The Firm,Thriller,9780178663096,Checked Out,2026-11-06,2026-11-27
+Oscar Wilde,The Picture of Dorian Gray,Horror,9780242224154,Available,,
+Jules Verne,Twenty Thousand Leagues Under the Seas,Sci-fi,9780173864104,Available,,
+hasan,shia,Sci-fi,2382,Available,,
+Hassan Ghassan,dasdsa,Romance,321,Checked Out,,
+hasan,life,Horror,981,Checked Out,,
+jassim,daeth,Sci-fi,89218,Checked Out,2026-11-22,2026-12-06
