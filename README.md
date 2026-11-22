@@ -6,7 +6,7 @@
 
 
 
-A \*\*Library Management System\*\* built with \*\*Streamlit\*\*, \*\*Pandas\*\*, and \*\*Plotly\*\* to manage a book catalog, track 14-day checkouts and check-ins, monitor overdue items, and import/export inventory data via CSV.
+A Library Management System built with \*\*Streamlit\*\*, \*\*Pandas\*\*, and \*\*Plotly\*\* to manage a book catalog, track 14-day checkouts and check-ins, monitor overdue items, and import/export inventory data via CSV.
 
 
 
