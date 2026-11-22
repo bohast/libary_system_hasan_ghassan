@@ -92,10 +92,12 @@ for col in ["checkout_date", "due_date"]:
 #this is for due alerts if book are not on due date
 df_alerts = st.session_state.books_df
 if not df_alerts.empty and "due_date" in df_alerts.columns:
-  parsed_due = pd.to_datetime(df_alerts["due_date"], errors="coerce").dt.date
-  today_dt = datetime.now().date()
+  parsed_due = pd.to_datetime(df_alerts["due_date"], errors="coerce").dt.normalize()
+  today_ts = pd.Timestamp.now().normalize()
   overdue_books = df_alerts[
-      (df_alerts["status"] == "Checked Out") & (parsed_due.notna()) & (parsed_due < today_dt)
+      (df_alerts["status"] == "Checked Out")
+      & parsed_due.notna()
+      & (parsed_due < today_ts)
   ]
   if not overdue_books.empty:
     overdue_titles = ", ".join(overdue_books["book"].astype(str).tolist())
