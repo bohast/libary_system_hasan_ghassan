@@ -206,7 +206,7 @@ if page_chosen == "Home":
             st.markdown(
                 f"""
                 <div class="status-card">
-                    <h4 style="margin-top:0;">Circulation Snapshot</h4>
+                    <h4 style="margin-top:0;">data info</h4>
                     <p style="margin: 10px 0;">🟢 <b>Available:</b> {available_count} ({avail_pct:.1f}%)</p>
                     <p style="margin: 10px 0;">🔵 <b>Checked Out (On Time):</b> {on_time_checked_out} ({ontime_pct:.1f}%)</p>
                     <p style="margin: 10px 0;">🔴 <b>Overdue:</b> {overdue_count} ({overdue_pct:.1f}%)</p>
