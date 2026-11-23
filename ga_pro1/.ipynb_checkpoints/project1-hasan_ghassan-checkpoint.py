@@ -273,7 +273,30 @@ if page_chosen == "Add Book":
             )
             st.session_state.books_df.to_csv("books.csv", index=False)
             show_book_popup(book_details)
-
+    col_up, col_dl = st.columns(2)
+    with col_up:
+        uploaded_file = st.file_uploader("Upload a books CSV to replace current session data", type="csv")
+        if uploaded_file is not None:
+            uploaded_df = pd.read_csv(uploaded_file)
+            for col in ["checkout_date", "due_date"]:
+                if col not in uploaded_df.columns:
+                    uploaded_df[col] = ""
+                else:
+                    uploaded_df[col] = uploaded_df[col].fillna("").astype("object")
+            st.session_state.books_df = uploaded_df
+            uploaded_df.to_csv("books.csv", index=False)
+            st.success("Uploaded CSV into session and saved to `books.csv`.")
+            st.rerun()
+#this code is for downloading the current inventory as a csv file
+    with col_dl:
+        csv_bytes = (st.session_state.books_df.to_csv(index=False).encode("utf-8"))
+        st.download_button(
+            label="Download Current Inventory (CSV)",
+            data=csv_bytes,
+            file_name="books_inventory.csv",
+            mime="text/csv",
+        )
+        
 #this is the check-in and check-out page layout
 if page_chosen == "Check-in/Check-out":
     st.title("Check-in/Check-out Page")
@@ -380,28 +403,5 @@ if page_chosen == "View Inventory":
         st.dataframe(df, use_container_width=True, hide_index=True)
         st.divider()
         st.subheader("CSV Import & Export")#this block of code is for uploading a new csv or downloading the current inventory
-        col_up, col_dl = st.columns(2)
-        with col_up:
-            uploaded_file = st.file_uploader("Upload a books CSV to replace current session data", type="csv")
-            if uploaded_file is not None:
-                uploaded_df = pd.read_csv(uploaded_file)
-                for col in ["checkout_date", "due_date"]:
-                    if col not in uploaded_df.columns:
-                        uploaded_df[col] = ""
-                    else:
-                        uploaded_df[col] = uploaded_df[col].fillna("").astype("object")
-                st.session_state.books_df = uploaded_df
-                uploaded_df.to_csv("books.csv", index=False)
-                st.success("Uploaded CSV into session and saved to `books.csv`.")
-                st.rerun()
-#this code is for downloading the current inventory as a csv file
-        with col_dl:
-            csv_bytes = (st.session_state.books_df.to_csv(index=False).encode("utf-8"))
-            st.download_button(
-                label="Download Current Inventory (CSV)",
-                data=csv_bytes,
-                file_name="books_inventory.csv",
-                mime="text/csv",
-            )
+       
 
-    
