@@ -273,6 +273,7 @@ if page_chosen == "Add Book":
             )
             st.session_state.books_df.to_csv("books.csv", index=False)
             show_book_popup(book_details)
+    st.subheader("CSV Import & Export")#this block of code is for uploading a new csv or downloading the current inventory
     col_up, col_dl = st.columns(2)
     with col_up:
         uploaded_file = st.file_uploader("Upload a books CSV to replace current session data", type="csv")
@@ -402,6 +403,6 @@ if page_chosen == "View Inventory":
         m3.metric("Checked Out", checked_out_count)
         st.dataframe(df, use_container_width=True, hide_index=True)
         st.divider()
-        st.subheader("CSV Import & Export")#this block of code is for uploading a new csv or downloading the current inventory
+
        
 
